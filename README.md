@@ -36,13 +36,13 @@ Použití
     
 3.  Spusťte CMake:
     
-                cmake ..
+                cmake  -G "MinGW Makefiles" ./../
                 cmake --build .
                 
     
 4.  Spusťte aplikaci:
     
-                ./my\_main
+                .\my_main.exe
                 
     
 
