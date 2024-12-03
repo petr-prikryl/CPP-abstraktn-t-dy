@@ -1,9 +1,0 @@
-C:/Users/petrp/ownCloud/Skola/5ap5pc/10sc/build/CMakeFiles/my_main.dir
-C:/Users/petrp/ownCloud/Skola/5ap5pc/10sc/build/CMakeFiles/edit_cache.dir
-C:/Users/petrp/ownCloud/Skola/5ap5pc/10sc/build/CMakeFiles/rebuild_cache.dir
-C:/Users/petrp/ownCloud/Skola/5ap5pc/10sc/build/lib/CMakeFiles/edit_cache.dir
-C:/Users/petrp/ownCloud/Skola/5ap5pc/10sc/build/lib/CMakeFiles/rebuild_cache.dir
-C:/Users/petrp/ownCloud/Skola/5ap5pc/10sc/build/lib/Auta/CMakeFiles/Auta.dir
-C:/Users/petrp/ownCloud/Skola/5ap5pc/10sc/build/lib/Auta/CMakeFiles/Auta2.dir
-C:/Users/petrp/ownCloud/Skola/5ap5pc/10sc/build/lib/Auta/CMakeFiles/edit_cache.dir
-C:/Users/petrp/ownCloud/Skola/5ap5pc/10sc/build/lib/Auta/CMakeFiles/rebuild_cache.dir

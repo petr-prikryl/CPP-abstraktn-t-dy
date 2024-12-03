@@ -1,2 +1,0 @@
-C:\msys64\ucrt64\bin\ar.exe qc libAuta.a CMakeFiles/Auta.dir/Motorcycle.cpp.obj
-C:\msys64\ucrt64\bin\ranlib.exe libAuta.a

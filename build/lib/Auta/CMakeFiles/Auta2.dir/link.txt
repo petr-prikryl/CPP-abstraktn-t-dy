@@ -1,2 +1,0 @@
-C:\msys64\ucrt64\bin\ar.exe qc libAuta2.a CMakeFiles/Auta2.dir/Truck.cpp.obj
-C:\msys64\ucrt64\bin\ranlib.exe libAuta2.a
