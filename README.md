@@ -20,7 +20,6 @@ Struktura Projektu
     |-- build/           # Složka pro build výstupy
     |-- lib/Auta/        # Knihovny pro různé typy vozidel
         |-- include/     # Hlavičkové soubory
-        |-- src/         # Zdrojové soubory
     |-- main.cpp         # Hlavní soubor programu
     |-- CMakeLists.txt   # Konfigurační soubor pro CMake
     
