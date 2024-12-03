@@ -1,19 +1,69 @@
-# SimpleMath Library
+Projekt Abstraktní třídy - Vozidla
+===============
 
-## Popis
-SimpleMath je jednoduchá C++ knihovna pro základní matematické operace a funkce, včetně sčítání, násobení, dělení, výpočtu délky přepony pravoúhlého trojúhelníku, Fibonacciho posloupnosti a faktoriálu. Kromě toho tato knihovna podporuje operace na seznamech, jako je součet a součin prvků.
+Tento projekt v jazyce C++ slouží k správě různých typů vozidel s využitím šablon a polymorfismu.
 
-## Funkce
-- `int add(int a, int b)`: Sčítá dvě celá čísla.
-- `int multiply(int a, int b)`: Násobí dvě celá čísla.
-- `int divide(int a, int b)`: Dělí dvě celá čísla (ošetřeno dělení nulou).
-- `int stranaC(int a, int b)`: Vypočítá délku přepony pravoúhlého trojúhelníku.
-- `int fibonacci(int n)`: Vrátí n-tý prvek Fibonacciho posloupnosti.
-- `int faktorialN(int n)`: Vypočítá faktoriál čísla n.
-- `int sumList(const std::list<int>& lst)`: Vypočítá součet prvků v seznamu.
-- `int productList(const std::list<int>& lst)`: Vypočítá součin prvků v seznamu.
+Funkce
+------
 
-## Instalace
-1. Klonujte tento repozitář do svého místního počítače.
-   ```bash
-   git clone https://github.com/petr-prikryl/Cpp_matematicka-knihovna.git
+*   Základní třída `Vehicle`, která obsahuje společné vlastnosti a metody pro všechna vozidla.
+*   Odvozené třídy:
+    *   `Car`: Reprezentuje auto s atributy jako objem motoru a počet sedadel.
+    *   `Motorcycle`: Reprezentuje motocykl s atributy jako aerodynamický koeficient a typ motocyklu.
+    *   `Truck`: Reprezentuje nákladní auto s atributy jako hmotnost nákladu a výkon motoru.
+*   Podpora výpočtu maximální rychlosti a odhadu času na cestu.
+*   Seznam vozidel s možností výpisu jejich vlastností a seřazení dle rychlosti.
+
+Struktura Projektu
+------------------
+
+    |-- build/           # Složka pro build výstupy
+    |-- lib/Auta/        # Knihovny pro různé typy vozidel
+        |-- include/     # Hlavičkové soubory
+        |-- src/         # Zdrojové soubory
+    |-- main.cpp         # Hlavní soubor programu
+    |-- CMakeLists.txt   # Konfigurační soubor pro CMake
+    
+
+Použití
+-------
+
+1.  Stáhněte nebo naklonujte repozitář.
+2.  Vytvořte build složku:
+    
+                mkdir build
+                cd build
+                
+    
+3.  Spusťte CMake:
+    
+                cmake ..
+                cmake --build .
+                
+    
+4.  Spusťte aplikaci:
+    
+                ./my\_main
+                
+    
+
+Příklady
+--------
+
+Níže je příklad vytvoření seznamu vozidel a práce s nimi:
+
+    std::vector\>> vozidla;
+    vozidla.push\_back(std::make\_shared\>(1.6, 5));
+    vozidla.push\_back(std::make\_shared\>(0.3, 0));
+    vozidla.push\_back(std::make\_shared\>(5000, 200));
+
+    for (const auto& v : vozidla) {
+        v->print();
+        std::cout << "Maximální rychlost: " << v->computeMaxSpeed() << " km/h" << std::endl;
+    }
+    
+
+Licence
+-------
+
+Projekt je dostupný pod licencí MIT.
